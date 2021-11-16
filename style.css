@@ -1,0 +1,103 @@
+*
+{
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(
+        45deg,#19058d 80%,orange 15%
+    );
+}
+.header
+{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 12%;
+    background: linear-gradient(
+        45deg,orange 85%,#19058d 15%
+    );
+    display: flex;
+    border-bottom: 2px solid black;
+    /* justify-content: space-between; */
+}
+/* .logo
+{
+    margin: 2px;
+    width: 80px;
+} */
+.subheader
+{
+    margin: 2px;
+    padding: 2px;
+    /* display: flex;
+    justify-content: flex-start; */
+}
+.subheader span
+{
+    font-size: 35px;
+    font-weight: bold;    
+    font-family: 'Lucida Sans';
+}
+.rightheader
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+.rightheader h1
+{
+   color: orange;
+   text-decoration: underline;
+   font-weight: bold;
+}
+.content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.regtable
+{
+    border: 2px solid #19058d;
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.regtable th
+{
+    width: 250px;
+}
+.regtable input[type="submit"],input[type="reset"]
+{
+    margin: 2px;
+    background-color: #19058d;
+    color:white;
+}
+.regtable input[type="submit"]:hover,input[type="reset"]:hover
+{
+    background-color:orange;
+    color: #000;
+    cursor: pointer;
+}
+input[type="date"]
+{
+    width:286px;
+}
+.subheadings
+{
+    width: 100%;
+  background-color: #19058d;
+  color: #fff;
+}
+input[type="text"],input[type="number"],input[type="date"],input[type="email"],input[type="password"]
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background-color: lightgray;
+}
